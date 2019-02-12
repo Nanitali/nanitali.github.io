@@ -1,0 +1,148 @@
+h1{
+    font-family: 'Pacifico', cursive;  
+    color: rgba(36, 31, 31, 0.849);
+    font-size: 60px;
+}
+h2{
+  font-family: 'Pacifico', cursive;  
+  color: rgba(36, 31, 31, 0.849);
+  font-size: 40px;
+}
+h3{
+  font-family: 'Pacifico', cursive;  
+  color: rgba(36, 31, 31, 0.849);
+  font-size: 25px;
+}
+
+.menu {
+   width: 100%;
+   height: 63px;
+}
+
+.menu a{
+  float: left;
+  display: block; 
+  color: rgb(4, 56, 16);
+  font-size: 22px;
+  text-align: center;
+  text-decoration: none;
+  padding: 25px 18px;
+  font-weight: bold;
+}
+.menu a:hover {
+  color:rgba(185, 330, 23,0.85)  
+}
+.jumptotop a:hover {
+  color:rgba(185, 330, 23,0.85)  
+} 
+.form a:hover {
+  color:rgba(185, 330, 23,0.85)  
+}
+body {
+    
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.8;
+    font-weight: 300;
+    color: #0e0202;
+    background-image: 
+    url("https://1oepalamar.files.wordpress.com/2014/02/cool-mint-cute-twitter-website-background.png");
+    text-align: center;
+    backface-visibility: 0.5;
+    margin:auto;  
+}
+video {
+  max-width: 100%;
+  height: auto;
+  border-radius: 2%;
+}
+.content-fill {
+  border-radius: 5%;
+  max-width: 100%;
+  height: auto;
+}
+.piconline {
+    padding: 0;
+    max-width: 100%;
+    height: auto;
+
+}
+.catpic {
+  max-width: 100%;
+  height: auto;
+    border-radius: 80%;
+}
+.weight-table {
+  max-width: 100%;
+  height: auto;
+}
+p {
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+ul {
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    font-weight: 600;
+    list-style-position: inside;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #093f0c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #093f0c;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #45a049;
+    padding: 20px;
+    opacity: 0.80;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
