@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+span.a {
+  display: inline; /* the default for span */
+  width: 80px;
+  height: 80px;
+  padding:5px;
+  border: 2px solid blueviolet;  
+  background-color: yellow; 
+}
+
+span.b {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  padding:5px;
+  border: 2px solid blueviolet;    
+  background-color: yellow; 
+}
+
+span.c {
+  display: block;
+  width: 80px;
+  height: 80px;
+  padding:5px;
+  border: 2px solid blueviolet;    
+  background-color: yellow; 
+}
+</style>
+</head>
+<body>
+
+<h1>The display Property</h1>
+<ul>
+<li><h2>{Display:inline;}</h2><p>span.a {
+    display: inline; /* the default for span */
+    width: 80px;
+    height: 80px;
+    padding:5px;
+    border: 2px solid blueviolet;  
+    background-color: yellow; 
+  }</p></li>
+<div>Here is the inline <span class="a">A</span> <span class="a">B</span> example. </div>
+
+<li><h2>{Display: inline-block;}</h2><p>span.b {
+    display: inline; /* the default for span */
+    width: 80px;
+    height: 80px;
+    padding:5px;
+    border: 2px solid blueviolet;  
+    background-color: yellow; 
+  }</p></li>
+<div>Here is the inline-block <span class="b">A</span> <span class="b">B</span> example. </div>
+
+<li><h2>{Display: block;}</h2><p>span.c {
+    display: inline; /* the default for span */
+    width: 80px;
+    height: 80px;
+    padding:5px;
+    border: 2px solid blueviolet;  
+    background-color: yellow; 
+  }</p></li>
+<div>Here is the block <span class="c">A</span> <span class="c">B</span> example. </div>
+</ul>
+</body>
+</html>

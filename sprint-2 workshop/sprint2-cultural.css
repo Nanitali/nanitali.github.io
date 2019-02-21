@@ -1,0 +1,35 @@
+div#wrapperHeader {
+    width:50% ;
+    height:50% ;
+    
+    background:url(images/header.png) repeat-x 0 0;
+    text-align:center;
+    margin-left: 75px;
+   }
+   
+   div#wrapperHeader div#header {
+    width:500px;
+    height:100px;
+    margin:0 auto;
+   }
+   
+   div#wrapperHeader div#header img {
+    width:; /* the width of the logo image */
+    height:; /* the height of the logo image */
+    margin:0 auto;
+   }
+
+body {
+    text-align: left;
+    font-size: 22px;
+    color: black;
+    background-color: whitesmoke;
+    margin: 25px;
+    padding: 20px;
+    border: 15px;
+    font-family:  'Playfair Text', serif;  
+   }
+   h1,h2,h3 {
+    font-family: 'Playfair Text', serif;  
+  
+   }
