@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title >Spring3-technical</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="sprint3-technical.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Playfair+Display:400,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Laila:500|Merriweather:700" rel="stylesheet">
+</head>
+    <!-- <script>
+            function startTime() {
+              var today = new Date();
+              var h = today.getHours();
+              var m = today.getMinutes();
+              var s = today.getSeconds();
+              m = checkTime(m);
+              s = checkTime(s);
+              document.getElementById('txt').innerHTML =
+              h + ":" + m + ":" + s;
+              var t = setTimeout(startTime, 500);
+            }
+            function checkTime(i) {
+              if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+              return i;
+            }
+    </script>   -->
+    <!-- <script src="sprint3-technical.js"></script> -->
+    <header>
+            <div id="wrapperHeader">
+                <button onclick="document.body.style.backgroundColor = 'white';">Invisible</button>
+                <canvas id="canvas" width="300" height="300" ></canvas>
+                <script src="sprint3-technical.js"></script>
+            </div>
+    </header>
+    <body>
+
+    <!-- <body onload="startTime()" style="color:wheat"> -->
+        <div>
+        <button onclick="document.body.style.backgroundColor = 'black';">Magic button</button>
+        </div>
+        <h1>What is JavaScript??</h1>
+            <p>The language of most modern web brower.JavaScript is most commonly used as a client side scripting language.</p>
+        <h2>JavaScript and its relationship to HTML and CSS??</h2>
+            <p>We can use an example above (the live clock in my blog)to explain the relationship:
+            <br>
+            <ul style="color:white">
+                <li>HTML: the frame of the clock !</li>
+                <li>CSS: the color and style of the clock!</li>
+                <li>JavaScript: the function of the clock!(moving function)</li>
+            </ul>
+            </p>
+        <h2>Control flow and loops</h2>
+            <p><strong>Control flow</strong>defends on the variables and conditions;<br><strong>Loops</strong>
+            iterate through a list and execute an action at each step.</p>
+        <h3>For example:'cooking egg in the morning'</h3>
+        this is a <strong>Control flow</strong> statement, variables:egg,oil,frypan. condition:power on.
+            <p>the <strong>Loops</strong> in this example is: frypan >> turn on the power >> add oil and egg >> turn off the power.
+            </p>
+        <h2>Arrays and objects</h2>
+            <p>An <strong>Array</strong> is a special variable, which can hold more than one value at a time.
+         use the example above,the egg box is an array hold egg 1, egg 2, egg 3 and so on ;
+               <br> An <strong>Object</strong> is a collection of properties, and a property is an association between a name (or key) and a value. A property's value can be a function, in which case the property is known as a method.
+         use the example above, the egg can be an object, it could contain the size of the egg, the date of the egg, and the type of the egg and so on.
+            </p>
+        <h3>Difference between accessing data from arrays and objects</h3>
+        <p>Access (index into) an Array item var first = index[0],var second = index[1];<br>Aceess data from object: we use objectname and propertyname to access the value.</p>
+        <h2>Functions and why they are useful??</h2>
+        <h3>What is Function?</h3>
+            <p>We can group a block of code together and associate it with one task.</p>
+            <ol style="color:white">
+                <li>A <em>Function</em> is a subprogram designed to perform a particular task.</li>
+                <li><em>Function</em> are executed when they are called. This is known as invoking a function.</li>
+                <li>Values can be passed into <em>Function</em> and used within the function.</li>
+                <li><em>Function</em> always return a value. In JavaScript, if no return value is specified, the function will return undefined.</li>
+                <li><em>Function</em> are objects.</li>
+            </ol>
+        <h3>Parameters vs. Arguments.</h3>
+            <p>When you are writing a function, the things inside the Parenthese called Parameters, those are the function
+            need to run; when you using the function, the things you are put in the parethese are called argument;you 
+            can use a function inside the function.If you are inside of a function, you can look out and see data,however,
+            if you are outside of a function, you can not look in.
+            </p>
+        <h2>DOM</h2>
+            <p>The Document Object Model (DOM) is an interface to web pages. It defines the logical structure of documents and the way a document is accessed and manipulated,allowing programs to read and manipulate the page's content, structure, and styles.</p>
+        <h3>Why Dom is used in JavaScript?</h3>
+            <p>The DOM represents the document as nodes and objects. ... But it is the same document in both cases. The Document Object Model (DOM) represents that same document so it can be manipulated. The DOM is an object-oriented representation of the web page, which can be modified with a scripting language such as JavaScript.</p>
+        <h3>The DOM and DevTools</h3>
+            <ol>
+            <li><stronge>What is DevTools?</stronge></li>
+            <p>Browser developer tools, available on major web browsers -- Chrome, Safari and Firefox to name a few -- enable web developers to quickly collect vital information on most web applications, including ones that you yourself are building. Because it’s the choice for most professional developers, this article will focus on how to use Google Chrome’s DevTools.</p>
+            <li>How to access to DevTool?</li>
+            <p> The easiest way to access DevTools is to navigate to a webpage in a Chrome window, press Ctrl + Click (or Right Click if you have an old-fashioned two-button mouse) anywhere inside the document. A menu will pop up next to where you clicked. Select "Inspect Element." This will launch the DevTools window in the bottom third of your screen.</p>
+            <li><a style="color:white" href ="https://www.codecademy.com/articles/use-devtools"> How you might interact with it?</a></li>
+            <p>
+            <ul style="color:white">
+                <li>Debug CSS and HTML to Solve Layout Issues</li>
+                <li>Debug your JavaScript Using the Console Tool</li>
+                <li>View Metadata About Your Web App with the NetworkTab</li>
+            </ul>
+            </p>
+            </ol>
+            </p>
+
+        
+    </body>
+    <!-- <body id ="showBlack">
+        <button onclick="balck()">MAGIC BUTTON</button>
+        <button onclick ="wheat()">Invisible</button>
+        <button onclick ="red()">Invisible</button>
+    </body> -->
+     <!-- <script>
+          var body =document.getElementById("showBlack");
+          function black(){
+            body.setAttribute("id","showBlack");
+          }
+          function wheat(){
+            body.setAttribute("id","showWheat");
+          }
+          function red(){
+            body.setAttribute("id","showRed");
+          }
+
+          </script> -->
+    
+  <footer>
+        <div id="contact">
+                <p ><strong>Email</strong>: amy_tako@hotmail.com | <stronge>Date: </stronge><span id ="Date"><script>
+                        var d = new Date();
+                        document.getElementById("Date").innerHTML = d;
+                        </script></span></p>
+              <a style="color:white" href="#wrapperHeader">Back to top</a>
+              <span>>>>></span><a style="color:white" href ="https://nanitali.github.io/myblog/myblog.html" target="_blank">Back to Bolg </a>
+            </div>
+  </footer>
+</html>

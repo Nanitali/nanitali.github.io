@@ -1,0 +1,33 @@
+#contact {
+    color:white;
+}
+body {
+    background-color:white;
+    text-align: left;
+    font-size: 18px;
+    color: white;
+    margin: 35px;
+    padding: 50px;
+    border: 25px;
+}
+#canvas{
+    background-color:white;
+    border-radius: 50%;     
+}
+div#wrapperHeader {
+    width:100%;
+    text-align:center;
+    margin:0 auto;
+   }
+button{
+    margin:auto;
+    display:block;
+  }
+h1,h2,h3{
+    font-family: 'Merriweather', serif;   
+}
+
+p,li {
+    font-family: 'Laila', serif;
+    font-size: 20px;
+}
