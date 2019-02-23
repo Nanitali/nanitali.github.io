@@ -147,9 +147,12 @@ and is wrapped around the whole page content, except for the footer in this exam
 <!-- Footer -->
 <footer class="myblog-container myblog-dark-grey myblog-padding-32 myblog-margin-top">
 <div id="contact">
-    <p><strong>Email</strong>: amy_tako@hotmail.com | <strong>Phone</strong>: 123456789 | <strong>Address</strong>: Auckland New Zealand</p>
+    <p><strong>Email</strong>: amy_tako@hotmail.com | <stronge>Date: </stronge><span id ="Date"><script>
+      var d = new Date();
+      document.getElementById("Date").innerHTML = d;
+      </script></span>| <strong>Address</strong>: Auckland </p>
   </div>
-  <a href="#home">Back To My Blog</a>
+  <a href="#home">Back To Top</a>
   <a href ="https://nanitali.github.io/" target="_blank">Back to Bolg </a>
 </footer>
 
