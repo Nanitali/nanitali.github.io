@@ -1,0 +1,41 @@
+div#wrapperHeader {
+    width:100%;
+    
+    background:url(images/header.png) repeat-x 0 0;
+    text-align:center;
+   }
+   
+   div#wrapperHeader div#header {
+    width:1000px;
+    height:200px;
+    margin:0 auto;
+   }
+   
+   div#wrapperHeader div#header img {
+    width:; /* the width of the logo image */
+    height:; /* the height of the logo image */
+    margin:0 auto;
+   }
+body {
+    text-align: left;
+    font-size: 18px;
+    color: black;
+    background-color: whitesmoke;
+    margin: 55px;
+    padding: 40px;
+    border: 15px;
+    font-family: 'Crimson Text', serif;
+   }
+   h1,h2,h3 {
+    font-family: 'Laila', serif;
+   }
+   p,li{
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    font-style: bold;
+   }
+#truncateLongTexts {
+    line-height: 1.4;
+    word-wrap: break-word;
+}
+  
